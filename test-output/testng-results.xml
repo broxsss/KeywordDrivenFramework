@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="79616" started-at="2017-09-16T22:53:40Z" finished-at="2017-09-16T22:55:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="79616" started-at="2017-09-16T22:53:40Z" finished-at="2017-09-16T22:55:00Z">
+      <class name="KeywordDriven.Selenium.Test.TestController">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:KeywordDriven.Selenium.Test.TestController@28d25987]" name="initBrowser" is-config="true" duration-ms="1252" started-at="2017-09-17T04:23:40Z" finished-at="2017-09-17T04:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="TestCaseController()[pri:0, instance:KeywordDriven.Selenium.Test.TestController@28d25987]" name="TestCaseController" duration-ms="78338" started-at="2017-09-17T04:23:41Z" finished-at="2017-09-17T04:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseController -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:KeywordDriven.Selenium.Test.TestController@28d25987]" name="quitBrowser" is-config="true" duration-ms="1" started-at="2017-09-17T04:25:00Z" finished-at="2017-09-17T04:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- KeywordDriven.Selenium.Test.TestController -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
