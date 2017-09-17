@@ -7,7 +7,6 @@
         <methods>
           <include name="TestCaseController"/>
           <include name="initBrowser"/>
-          <include name="quitBrowser"/>
         </methods>
       </class> <!-- KeywordDriven.Selenium.Test.TestController -->
     </classes>

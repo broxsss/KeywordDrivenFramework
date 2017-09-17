@@ -36,7 +36,7 @@ public class TestController extends Resources{
 	public void TestCaseController() throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, IOException {
 		
 		String startTime = TestUtils.now("dd.MMMM.yyyy hh.mm.ss aaa");
-		ReportUtil.startTesting(System.getProperty("user.dir")+"//src//test//java//KeywordDriven//Selenium//Reports//index.html", startTime, "Test", "1.5");
+		ReportUtil.startTesting(System.getProperty("user.dir")+"//src//main//java//KeywordDriven//Selenium//Reports//index.html", startTime, "Test", "1.5");
 		ReportUtil.startSuite("Suite1");
 		String TCStatus="Pass";
 		
@@ -51,7 +51,7 @@ public class TestController extends Resources{
 			if(RunMode.equals("Y")) {
 				String TSStatus="Pass";
 				
-				System.setProperty("webdriver.chrome.driver","C:/akshay/chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//driver//chromedriver.exe");
 				Map<String, Object> prefs = new HashMap<String, Object>();
 				prefs.put("profile.default_content_setting_values.notifications", 2);
 				ChromeOptions options = new ChromeOptions();
